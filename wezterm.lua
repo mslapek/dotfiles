@@ -5,7 +5,7 @@ c.colors = {
   foreground = '#dddddd'
 }
 
-c.font = wezterm.font 'Jetbrains Mono'
+c.font = wezterm.font('Jetbrains Mono', { weight = 'Regular' })
 c.font_size = 17
 
 c.hide_tab_bar_if_only_one_tab = true
