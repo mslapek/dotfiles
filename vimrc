@@ -1,13 +1,19 @@
 syntax on
 
-set shortmess+=I wildmenu
+set shortmess+=I laststatus=2
 set encoding=utf-8
 
-set expandtab shiftround tabstop=4 shiftwidth=4
-set list listchars=tab:»\ ,trail:·
+set wildmenu wildoptions=pum
+set list listchars=tab:»\ ,trail:·,nbsp:+
+set number relativenumber cursorline scrolloff=12
+set hlsearch incsearch smartcase ignorecase
+set splitright
+set mouse=a
 
-set relativenumber scrolloff=12
-set hlsearch ignorecase
+set foldmethod=syntax foldlevelstart=99
+
+set autoindent smartindent shiftround
+set expandtab tabstop=4 shiftwidth=4
 
 imap jj <Esc>
 
