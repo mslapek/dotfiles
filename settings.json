@@ -1,0 +1,79 @@
+{
+  "workbench.colorTheme": "Dracula Theme",
+
+  // font
+  "editor.fontFamily": "JetBrains Mono Light",
+  "debug.console.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 17,
+  "terminal.integrated.fontSize": 17,
+  "debug.console.fontSize": 17,
+  "editor.fontLigatures": true,
+
+  // autosave
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+
+  // gitlens
+  "gitlens.defaultDateFormat": "YYYY-MM-DD hh:mm",
+  "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+  "gitlens.defaultTimeFormat": "HH:mm",
+
+  // workbench
+  "workbench.activityBar.location": "bottom",
+  "workbench.sideBar.location": "right",
+  "window.customTitleBarVisibility": "windowed",
+  "workbench.startupEditor": "none",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "workbench.tree.indent": 32,
+  "workbench.tree.renderIndentGuides": "always",
+
+  "workbench.editor.showTabs": "none",
+  "workbench.editor.closeEmptyGroups": false,
+  "workbench.editor.tabActionLocation": "left",
+
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsicons.presets.hideExplorerArrows": true,
+
+  // extensions
+  "extensions.ignoreRecommendations": true,
+  "cSpell.enabled": false,
+
+  // editor
+  "editor.cursorSurroundingLines": 15,
+  "editor.fastScrollSensitivity": 2,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelScrollSensitivity": 1,
+  "editor.renderWhitespace": "trailing",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.showFoldingControls": "always",
+  "terminal.integrated.mouseWheelScrollSensitivity": 1,
+
+  // vim
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.foldfix": true,
+  "editor.lineNumbers": "relative",
+
+  // python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "jupyter.interactiveWindow.creationMode": "perFile",
+
+  // telemetry
+  "redhat.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+
+  // other
+}
