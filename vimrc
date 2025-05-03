@@ -7,7 +7,7 @@ set wildmenu wildoptions=pum
 set list listchars=tab:»\ ,trail:·,nbsp:+
 set number relativenumber cursorline scrolloff=12
 set hlsearch incsearch smartcase ignorecase
-set splitright
+set splitright splitbelow
 set mouse=a
 
 set foldmethod=syntax foldlevelstart=99

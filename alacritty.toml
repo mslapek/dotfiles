@@ -1,0 +1,15 @@
+[font]
+size = 17
+normal = { family = "JetBrains Mono", style = "Light" }
+
+[window]
+title = "Terminal"
+dynamic_padding = true
+resize_increments = true
+
+[colors.primary]
+background = "#000000"
+
+[mouse]
+hide_when_typing = true
+
