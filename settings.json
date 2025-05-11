@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Dracula Theme",
+  "workbench.colorTheme": "Nord",
 
   // font
   "editor.fontFamily": "JetBrains Mono Light",
@@ -13,11 +13,6 @@
   "files.autoSave": "onFocusChange",
   "files.trimTrailingWhitespace": true,
 
-  // gitlens
-  "gitlens.defaultDateFormat": "YYYY-MM-DD hh:mm",
-  "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
-  "gitlens.defaultTimeFormat": "HH:mm",
-
   // workbench
   "workbench.activityBar.location": "bottom",
   "workbench.sideBar.location": "right",
@@ -28,13 +23,14 @@
   "workbench.tree.indent": 32,
   "workbench.tree.renderIndentGuides": "always",
 
-  "workbench.editor.showTabs": "none",
-  "workbench.editor.closeEmptyGroups": false,
-  "workbench.editor.tabActionLocation": "left",
+  "workbench.statusBar.visible": false,
+  "editor.scrollbar.verticalScrollbarSize": 0,
 
-  "workbench.iconTheme": "vscode-icons",
-  "vsicons.dontShowNewVersionMessage": true,
-  "vsicons.presets.hideExplorerArrows": true,
+  // no tabs
+  "workbench.editor.showTabs": "none",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 1,
 
   // extensions
   "extensions.ignoreRecommendations": true,
@@ -61,6 +57,32 @@
       "after": ["<Esc>"]
     }
   ],
+  "vim.normalModeKeyBindings": [
+    // window management
+    {
+      "before": ["<Space>", "w"],
+      "after": ["<C-w>"]
+    },
+
+    // navigation
+    {
+      "before": ["<Space>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<Space>", "f", "s"],
+      "commands": ["workbench.action.showAllSymbols"]
+    },
+    {
+      "before": ["<Space>", "f", "g"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+
+    {
+      "before": ["<Space>", "b"],
+      "commands": ["workbench.action.navigateBack"]
+    }
+  ],
   "vim.foldfix": true,
   "editor.lineNumbers": "relative",
 
@@ -71,9 +93,10 @@
   "jupyter.interactiveWindow.creationMode": "perFile",
 
   // telemetry
-  "redhat.telemetry.enabled": false,
   "telemetry.telemetryLevel": "off",
+  "telemetry.feedback.enabled": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
+  "redhat.telemetry.enabled": false
 
   // other
 }

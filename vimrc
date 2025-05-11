@@ -1,7 +1,6 @@
 syntax on
 
 set shortmess+=I laststatus=2
-set encoding=utf-8
 
 set wildmenu wildoptions=pum
 set list listchars=tab:»\ ,trail:·,nbsp:+
@@ -16,5 +15,10 @@ set autoindent smartindent shiftround
 set expandtab tabstop=4 shiftwidth=4
 
 imap jj <Esc>
+nmap <space>w <C-w>
+nmap <space>b <C-^>
+
+nmap <silent> <C-w>t :term ++curwin<cr>
+tnoremap jj <C-\><C-n>
 
 colorscheme sorbet
