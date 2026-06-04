@@ -8,7 +8,7 @@ cat shell/bashrc.sh shell/aliases.sh > ~/.shellrc
 cp -v vimrc ~/.vimrc
 cp -v tmux.conf ~/.tmux.conf
 
-cp -vR nvim ~/.config/nvim
 cp -vR ghostty ~/.config/ghostty
+cp -vR helix ~/.config/helix
 ```
 

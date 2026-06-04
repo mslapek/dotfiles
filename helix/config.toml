@@ -1,0 +1,4 @@
+theme="doom_acario_dark"
+
+[keys.insert]
+j = { j = "normal_mode" }
