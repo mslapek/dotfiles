@@ -1,19 +1,13 @@
-syntax on
-
-set shortmess+=I
-
-set wildmenu wildoptions=pum
-set list listchars=tab:>\ ,trail:-,nbsp:+
-set number relativenumber cursorline scrolloff=12
-set hlsearch incsearch smartcase ignorecase
-set splitright splitbelow
-set mouse=a
-
-set autoindent smartindent shiftround
-set expandtab tabstop=4 shiftwidth=4
-
-imap jj <Esc>
+imap jj       <Esc>
 nmap <space>w <C-w>
-nmap <space>b <C-^>
 
-colorscheme wildcharm
+colorscheme torte
+
+set autoindent smartindent et ts=4 sw=4
+
+set scrolloff=10
+set hlsearch   ignorecase
+set splitright splitbelow
+
+syntax on
+set shortmess+=I laststatus=1 background=dark
